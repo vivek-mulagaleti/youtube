@@ -7,9 +7,12 @@
     <title>Youtube</title>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="header.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="sidebar.css">
 </head>
 
 <body>
@@ -26,150 +29,326 @@
         <div class="right-section">
             <img id="upload" src="images/header/upload.svg" alt="">
             <img id="apps" src="images/header/youtube-apps.svg" alt="">
-            <img id="notification" src="images/header/notifications.svg" alt="">
+            <div class="notification-relative"><img id="notification" src="images/header/notifications.svg" alt="">
+                <div class="notification-count">
+                    3
+                </div>
+            </div>
             <img id="my-channel" src="images/header/my-channel.jpeg" alt="">
         </div>
     </div>
-    
+
+
+    <div class="side-bar">
+        <div class="sidebar-link">
+            <img src="images/sidebar/home.svg" alt="">
+            <p class="sidebar-names">Home</p>
+        </div>
+        <div class="sidebar-link">
+            <img src="images/sidebar/explore.svg" alt="">
+            <p class="sidebar-names">Explore</p>
+        </div>
+        <div class="sidebar-link">
+            <img src="images/sidebar/subscriptions.svg" alt="">
+            <p class="sidebar-names">Subscriptions</p>
+        </div>
+        <div class="sidebar-link">
+            <img src="images/sidebar/originals.svg" alt="">
+            <p class="sidebar-names">Originals</p>
+        </div>
+        <div class="sidebar-link">
+            <img src="images/sidebar/youtube-music.svg" alt="">
+            <p class="sidebar-names">YouTube Music</p>
+        </div>
+        <div class="sidebar-link">
+            <img src="images/sidebar/library.svg" alt="">
+            <p class="sidebar-names">Library</p>
+        </div>
+    </div>
+
     <div class="video-grid">
-    <div class="video-card">
-        <div class="video-card-thumbnail">
-        <img src="images/thumbnail-1.webp" alt="thumbnail-1" class="thumbnail">
-        </div>
-        <div class="video-card-text">
-            <div class="video-card-channel">
-                <img src="images/channel-1.jpeg" alt="channel-1" class="channel">
+        <div class="video-card">
+            <div class="video-card-thumbnail">
+                <img src="images/thumbnail-1.webp" alt="thumbnail-1" class="thumbnail">
+                <div class="video-time">14:20</div>
             </div>
-            <div class="video-card-info">
-                <p class="video-title">Talking Tech and AI with Google CEO Sundar Pichai!</p>
-            
-                <p class="channel-name">Marques Brownlee</p>
-            
-                <p class="views-time">3.4M views · 6 months ago</p>
-            </div>
-        </div>
-    </div>
-
-
-    <div class="video-card">
-        <div class="video-card-thumbnail">
-            <img src="images/thumbnail-2.webp" alt="thumbnail-1" class="thumbnail">
-        </div>
-        <div class="video-card-text">
-            <div class="video-card-channel">
-                <img src="images/channel-2.jpeg" alt="channel-1" class="channel">
-            </div>
-            <div class="video-card-info">
-                <div class="video-card-title">
-                    <p class="video-title">Try Not To Laugh Challenge #9</p>
+            <div class="video-card-text">
+                <div class="video-card-channel">
+                    <img src="images/channel-1.jpeg" alt="channel-1" class="channel">
                 </div>
-                <div class="video-card-channel-name">
-                    <p class="channel-name">Markiplier</p>
-                </div>
-                <div class="video-card-view-time">
-                    <p class="views-time">19M views · 4 years ago</p>
+                <div class="video-card-info">
+                    <p class="video-title">Talking Tech and AI with Google CEO Sundar Pichai!</p>
+
+                    <p class="channel-name">Marques Brownlee</p>
+
+                    <p class="views-time">3.4M views · 6 months ago</p>
                 </div>
             </div>
         </div>
-    </div>
 
 
-
-    <div class="video-card">
-        <div class="video-card-thumbnail">
-            <img src="images/thumbnail-2.webp" alt="thumbnail-1" class="thumbnail">
-        </div>
-        <div class="video-card-text">
-            <div class="video-card-channel">
-                <img src="images/channel-2.jpeg" alt="channel-1" class="channel">
+        <div class="video-card">
+            <div class="video-card-thumbnail">
+                <img src="images/thumbnail-2.webp" alt="thumbnail-1" class="thumbnail">
+                <div class="video-time">14:20</div>
             </div>
-            <div class="video-card-info">
-                <div class="video-card-title">
-                    <p class="video-title">Try Not To Laugh Challenge #9</p>
+            <div class="video-card-text">
+                <div class="video-card-channel">
+                    <img src="images/channel-2.jpeg" alt="channel-1" class="channel">
                 </div>
-                <div class="video-card-channel-name">
-                    <p class="channel-name">Markiplier</p>
-                </div>
-                <div class="video-card-view-time">
-                    <p class="views-time">19M views · 4 years ago</p>
-                </div>
-            </div>
-        </div>
-    </div>
-
-
-
-    <div class="video-card">
-        <div class="video-card-thumbnail">
-            <img src="images/thumbnail-2.webp" alt="thumbnail-1" class="thumbnail">
-        </div>
-        <div class="video-card-text">
-            <div class="video-card-channel">
-                <img src="images/channel-2.jpeg" alt="channel-1" class="channel">
-            </div>
-            <div class="video-card-info">
-                <div class="video-card-title">
-                    <p class="video-title">Try Not To Laugh Challenge #9</p>
-                </div>
-                <div class="video-card-channel-name">
-                    <p class="channel-name">Markiplier</p>
-                </div>
-                <div class="video-card-view-time">
-                    <p class="views-time">19M views · 4 years ago</p>
+                <div class="video-card-info">
+                    <div class="video-card-title">
+                        <p class="video-title">Try Not To Laugh Challenge #9</p>
+                    </div>
+                    <div class="video-card-channel-name">
+                        <p class="channel-name">Markiplier</p>
+                    </div>
+                    <div class="video-card-view-time">
+                        <p class="views-time">19M views · 4 years ago</p>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
 
 
 
-
-    <div class="video-card">
-        <div class="video-card-thumbnail">
-            <img src="images/thumbnail-2.webp" alt="thumbnail-1" class="thumbnail">
-        </div>
-        <div class="video-card-text">
-            <div class="video-card-channel">
-                <img src="images/channel-2.jpeg" alt="channel-1" class="channel">
+        <div class="video-card">
+            <div class="video-card-thumbnail">
+                <img src="images/thumbnail-2.webp" alt="thumbnail-1" class="thumbnail">
+                <div class="video-time">18:20</div>
             </div>
-            <div class="video-card-info">
-                <div class="video-card-title">
-                    <p class="video-title">Try Not To Laugh Challenge #9</p>
+            <div class="video-card-text">
+                <div class="video-card-channel">
+                    <img src="images/channel-2.jpeg" alt="channel-1" class="channel">
                 </div>
-                <div class="video-card-channel-name">
-                    <p class="channel-name">Markiplier</p>
-                </div>
-                <div class="video-card-view-time">
-                    <p class="views-time">19M views · 4 years ago</p>
-                </div>
-            </div>
-        </div>
-    </div>
-
-
-
-
-    <div class="video-card">
-        <div class="video-card-thumbnail">
-            <img src="images/thumbnail-2.webp" alt="thumbnail-1" class="thumbnail">
-        </div>
-        <div class="video-card-text">
-            <div class="video-card-channel">
-                <img src="images/channel-2.jpeg" alt="channel-1" class="channel">
-            </div>
-            <div class="video-card-info">
-                <div class="video-card-title">
-                    <p class="video-title">Try Not To Laugh Challenge #9</p>
-                </div>
-                <div class="video-card-channel-name">
-                    <p class="channel-name">Markiplier</p>
-                </div>
-                <div class="video-card-view-time">
-                    <p class="views-time">19M views · 4 years ago</p>
+                <div class="video-card-info">
+                    <div class="video-card-title">
+                        <p class="video-title">Try Not To Laugh Challenge #9</p>
+                    </div>
+                    <div class="video-card-channel-name">
+                        <p class="channel-name">Markiplier</p>
+                    </div>
+                    <div class="video-card-view-time">
+                        <p class="views-time">19M views · 4 years ago</p>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
+
+
+
+        <div class="video-card">
+            <div class="video-card-thumbnail">
+                <img src="images/thumbnail-2.webp" alt="thumbnail-1" class="thumbnail">
+                <div class="video-time">17:20</div>
+            </div>
+            <div class="video-card-text">
+                <div class="video-card-channel">
+                    <img src="images/channel-2.jpeg" alt="channel-1" class="channel">
+                </div>
+                <div class="video-card-info">
+                    <div class="video-card-title">
+                        <p class="video-title">Try Not To Laugh Challenge #9</p>
+                    </div>
+                    <div class="video-card-channel-name">
+                        <p class="channel-name">Markiplier</p>
+                    </div>
+                    <div class="video-card-view-time">
+                        <p class="views-time">19M views · 4 years ago</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <div class="video-card">
+            <div class="video-card-thumbnail">
+                <img src="images/thumbnail-2.webp" alt="thumbnail-1" class="thumbnail">
+                <div class="video-time">14:20</div>
+            </div>
+            <div class="video-card-text">
+                <div class="video-card-channel">
+                    <img src="images/channel-2.jpeg" alt="channel-1" class="channel">
+                </div>
+                <div class="video-card-info">
+                    <div class="video-card-title">
+                        <p class="video-title">Try Not To Laugh Challenge #9</p>
+                    </div>
+                    <div class="video-card-channel-name">
+                        <p class="channel-name">Markiplier</p>
+                    </div>
+                    <div class="video-card-view-time">
+                        <p class="views-time">19M views · 4 years ago</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="video-card">
+            <div class="video-card-thumbnail">
+                <img src="images/thumbnail-2.webp" alt="thumbnail-1" class="thumbnail">
+                <div class="video-time">14:20</div>
+            </div>
+            <div class="video-card-text">
+                <div class="video-card-channel">
+                    <img src="images/channel-2.jpeg" alt="channel-1" class="channel">
+                </div>
+                <div class="video-card-info">
+                    <div class="video-card-title">
+                        <p class="video-title">Try Not To Laugh Challenge #9</p>
+                    </div>
+                    <div class="video-card-channel-name">
+                        <p class="channel-name">Markiplier</p>
+                    </div>
+                    <div class="video-card-view-time">
+                        <p class="views-time">19M views · 4 years ago</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <div class="video-card">
+            <div class="video-card-thumbnail">
+                <img src="images/thumbnail-2.webp" alt="thumbnail-1" class="thumbnail">
+                <div class="video-time">14:20</div>
+            </div>
+            <div class="video-card-text">
+                <div class="video-card-channel">
+                    <img src="images/channel-2.jpeg" alt="channel-1" class="channel">
+                </div>
+                <div class="video-card-info">
+                    <div class="video-card-title">
+                        <p class="video-title">Try Not To Laugh Challenge #9</p>
+                    </div>
+                    <div class="video-card-channel-name">
+                        <p class="channel-name">Markiplier</p>
+                    </div>
+                    <div class="video-card-view-time">
+                        <p class="views-time">19M views · 4 years ago</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+        <div class="video-card">
+            <div class="video-card-thumbnail">
+                <img src="images/thumbnail-2.webp" alt="thumbnail-1" class="thumbnail">
+                <div class="video-time">14:20</div>
+            </div>
+            <div class="video-card-text">
+                <div class="video-card-channel">
+                    <img src="images/channel-2.jpeg" alt="channel-1" class="channel">
+                </div>
+                <div class="video-card-info">
+                    <div class="video-card-title">
+                        <p class="video-title">Try Not To Laugh Challenge #9</p>
+                    </div>
+                    <div class="video-card-channel-name">
+                        <p class="channel-name">Markiplier</p>
+                    </div>
+                    <div class="video-card-view-time">
+                        <p class="views-time">19M views · 4 years ago</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
+        <div class="video-card">
+            <div class="video-card-thumbnail">
+                <img src="images/thumbnail-2.webp" alt="thumbnail-1" class="thumbnail">
+                <div class="video-time">14:20</div>
+            </div>
+            <div class="video-card-text">
+                <div class="video-card-channel">
+                    <img src="images/channel-2.jpeg" alt="channel-1" class="channel">
+                </div>
+                <div class="video-card-info">
+                    <div class="video-card-title">
+                        <p class="video-title">Try Not To Laugh Challenge #9</p>
+                    </div>
+                    <div class="video-card-channel-name">
+                        <p class="channel-name">Markiplier</p>
+                    </div>
+                    <div class="video-card-view-time">
+                        <p class="views-time">19M views · 4 years ago</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+        <div class="video-card">
+            <div class="video-card-thumbnail">
+                <img src="images/thumbnail-2.webp" alt="thumbnail-1" class="thumbnail">
+                <div class="video-time">14:20</div>
+            </div>
+            <div class="video-card-text">
+                <div class="video-card-channel">
+                    <img src="images/channel-2.jpeg" alt="channel-1" class="channel">
+                </div>
+                <div class="video-card-info">
+                    <div class="video-card-title">
+                        <p class="video-title">Try Not To Laugh Challenge #9</p>
+                    </div>
+                    <div class="video-card-channel-name">
+                        <p class="channel-name">Markiplier</p>
+                    </div>
+                    <div class="video-card-view-time">
+                        <p class="views-time">19M views · 4 years ago</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <div class="video-card">
+            <div class="video-card-thumbnail">
+                <img src="images/thumbnail-2.webp" alt="thumbnail-1" class="thumbnail">
+                <div class="video-time">16:20</div>
+            </div>
+            <div class="video-card-text">
+                <div class="video-card-channel">
+                    <img src="images/channel-2.jpeg" alt="channel-1" class="channel">
+                </div>
+                <div class="video-card-info">
+                    <div class="video-card-title">
+                        <p class="video-title">Try Not To Laugh Challenge #9</p>
+                    </div>
+                    <div class="video-card-channel-name">
+                        <p class="channel-name">Markiplier</p>
+                    </div>
+                    <div class="video-card-view-time">
+                        <p class="views-time">19M views · 4 years ago</p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 </body>
 

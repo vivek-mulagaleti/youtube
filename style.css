@@ -1,6 +1,7 @@
 body{
     margin: 0;
     padding-top: 65px;
+    padding-left: 100px;
 }
 p{
     font-family: Roboto, Arial;
@@ -22,6 +23,7 @@ p{
 .video-card-thumbnail{
     display: block;
     margin-bottom: 10px;
+    position: relative;
 }
 .video-card-text{
     display: grid;
@@ -51,4 +53,17 @@ p{
     grid-template-columns: 1fr 1fr 1fr;
     column-gap: 11px;
     row-gap: 40px;
+}
+.video-time{
+    background-color: black;
+    color: white;
+    position: absolute;
+    bottom: 8px;
+    right: 5px;
+    font-family: Roboto,arial;
+    font-size: 12px;
+    font-weight: 500;
+    border-radius: 3px;
+    padding: 4px 4px 4px 4px; 
+    /* top right bottom left */
 }

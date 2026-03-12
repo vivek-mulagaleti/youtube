@@ -9,6 +9,7 @@
     right: 0;
     background-color: white;
     border-bottom: 1px solid rgb(185, 182, 182);
+    z-index: 100;
 }
 .left-section{
     display: flex;
@@ -93,5 +94,19 @@
 }
 #my-channel{
     height: 32px;
+    border-radius: 50%;
+}
+.notification-relative{
+    position: relative;
+}
+.notification-count{
+    position: absolute;
+    top:-2px;
+    right: 0;
+    background-color: rgb(201, 26, 26);
+    color: white;
+    font-family: Roboto,Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    padding: 2px 5px 2px 5px;
     border-radius: 50%;
 }
